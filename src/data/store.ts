@@ -1,5 +1,5 @@
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://londonmenswearkanpur.com";
+export const SITE_URL = "https://londonmenswear.in";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://londonmenswear.in";
 
 export const BUSINESS = {
   name: "London Men's Wear",
@@ -27,8 +27,8 @@ export const BUSINESS = {
   mapsEmbedUrl:
     "https://www.google.com/maps?q=House%20No.%20335%2C%20Railbazar%2C%20Cantt%2C%20Kanpur%2C%20Uttar%20Pradesh&output=embed",
   social: {
-    instagram: "https://instagram.com/londonmenswear.kanpur",
-    facebook: "https://facebook.com/londonmenswearkanpur",
+    instagram: "https://instagram.com/londonmenswear",
+    facebook: "https://facebook.com/londonmenswear",
   },
 } as const;
 
